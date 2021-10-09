@@ -1,4 +1,6 @@
 # Zenon-Testnet-Pillar-Deployment
+# I created this guide to help Zenon testnet users set up a pillar. The steps below are my own and not endorsed by the Zenon team. Try at your own risk. If you found helpful no need to donate, but delegation to SultanOfStaking pillar would be appreciated https://explorer.znn.space/pillar/z1qpgdtn89u9365jr7ltdxu29fy52pnzwe4fl7zc
+
 #Pillar Node requirements
 #Hardware: CPU >= 2 cores, RAM >= 2 GB, Storage >= 20 GB #free space; recommended Network 1Gbps dedicated bandwidth
 #Software: Linux distros e.g. Ubuntu 20.04 LTS/Debian/Centos; #recommended NTP configuration, Watchdog service
