@@ -40,15 +40,15 @@ Enable RPC
 
 `./znn-cli enableRPC`
 
-Generate producer address address on vps
+Generate producer address address on vps (replace yourComplexPassphrase with a new password for keystore)
 
 `./znn-cli wallet.createNew yourComplexPassphrase`
 
 Register via syrius with vps address above as producer address
 
-Import syrius address to vps via mnemonic
+Import syrius address to vps via mnemonic (you need the  mnemonic from they syrius address you registered the pillar from, "yourComplexPassphrase" should be your syrius password, be sure to put spaces between each of the words in your mnemonic)
 
-`./znn-cli wallet.createFromMnemonic “your” mnemonic” yourComplexPassphrase`
+`./znn-cli wallet.createFromMnemonic “your mnemonic” yourComplexPassphrase`
 
 Update config
 
@@ -56,6 +56,7 @@ Update config
 
 Paste the following in your config. Be sure to replace KeyStore & Password with your info
 
+```
 {
     "RPC": {
         "EnableHTTP": true,
@@ -75,6 +76,7 @@ Paste the following in your config. Be sure to replace KeyStore & Password with 
         "ProducerAddress": "0:producer address"
     }
 }
+```
 
 Save and exit using ctrl+o, enter, ctrl+x
 
