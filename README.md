@@ -85,8 +85,8 @@ Set up znnd.service
 `sudo nano /etc/systemd/system/znnd.service`
 
 Paste the following in your znnd.service. If your znnd is in another path specify that in the ExecStart line
-
-`[Unit]
+```
+[Unit]
 Description=znnd
 
 [Service]
@@ -103,8 +103,8 @@ StartLimitInterval=0s
 StartLimitBurst=5
 
 [Install]
-WantedBy=multi-user.target`
-
+WantedBy=multi-user.target
+```
 Save and exit using ctrl+o, enter, ctrl+x
 
 Open another terminal windows logged into your node and run
