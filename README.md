@@ -141,3 +141,5 @@ Then start znnd.service
 Your new terminal window should display logs during the startup. You should see it start without errors, get “znnd successfully started” and “Pillar detected!” messages, and see your node begin to sync and ultimately produce momentums. If this is not the case look for errors in the startup process then refer to my Node Tips repository to troubleshoot or ask the community in TG. The most common errors have to do with the data paths.
 
 ## If you found helpful no need to donate, but delegation to SultanOfStaking pillar would be appreciated https://explorer.znn.space/pillar/z1qpgdtn89u9365jr7ltdxu29fy52pnzwe4fl7zc
+
+## If you are getting errors in your logs go here https://github.com/sultanofstaking/Zenon-Testnet-Node-Tips
