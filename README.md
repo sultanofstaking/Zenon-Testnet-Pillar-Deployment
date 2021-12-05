@@ -1,4 +1,4 @@
-# Zenon-Testnet-Pillar-Deployment 4.0
+# Zenon-Testnet-Pillar-Manual-Build
 ## WARNING: I created this guide as an experiment for those setting up a pillar for the first time on 4.0 manually (without the deployer) and to help current Zenon testnet pillar holders migrate off their non-functioning pillars to a fresh install of 4.0. Full disclosure I have not migrated myself, I did a new install of 4.0 manually for SultanOfStaking pillar (i.e., registered 1st time w/ new producer address) https://explorer.znn.space/pillar/z1qpgdtn89u9365jr7ltdxu29fy52pnzwe4fl7zc . The steps below are my own and not endorsed by the Zenon team. This is being done in a very agile way, MVP of an experiment I expect our cross-functional community will participate and provide feedback so we can continuously improve. Please use the issue feature for fixes here. If you need to reach me 1:1 DM me on TG @SultanOfStaking - Try at your own risk. 
 
 Pillar Node requirements
